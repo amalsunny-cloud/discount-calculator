@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #82df76 20%, #bcf686c0 100%);
+  background: linear-gradient(35deg, #82df76 20%, #bcf686c0 50%);
   padding: 20px;
 }
 
@@ -87,8 +87,8 @@ body {
 }
 
 .button {
-  width: 70%;
-  padding: 14px 20px;
+  width: 40%;
+  padding: 14px 10px;
   font-size: 16px;
   color: #fff;
   background: linear-gradient(45deg, #007bff, #0056b3);
@@ -105,6 +105,7 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
   background: linear-gradient(45deg, #0056b3, #004494);
+  border-radius: 40px;
 }
 
 .button:active {

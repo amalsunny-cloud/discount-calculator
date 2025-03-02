@@ -28,7 +28,7 @@ function DiscountCalculator() {
       <h2 className="header">Discount Calculator</h2>
       
       <div className="input-container">
-        <label className="label">Enter Amount:</label>
+        <label className="label">Enter Amount :</label>
         <input
           type="number"
           value={amount}
@@ -39,7 +39,7 @@ function DiscountCalculator() {
       </div>
 
       <div className="input-container">
-        <label className="label">Enter Discount %:</label>
+        <label className="label">Enter Discount(%) :</label>
         <input
           type="number"
           value={discount}
